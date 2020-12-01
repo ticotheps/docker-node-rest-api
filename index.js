@@ -8,5 +8,5 @@ app.listen(port, () => {
 });
 
 app.get('/churches', (req, res) => {
-	res.send("Let's find the right Church for you!");
+	res.json({ name: 'Elkton Missionary Church' });
 });
