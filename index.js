@@ -10,3 +10,10 @@ app.listen(port, () => {
 app.get('/churches', (req, res) => {
 	res.json({ name: 'Elkton Missionary Church' });
 });
+
+// configure app to allow POST requests to send URL encoded data
+app.use(
+	express.urlencoded({
+		extended: true,
+	})
+);
