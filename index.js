@@ -17,3 +17,9 @@ app.use(
 		extended: true,
 	})
 );
+
+app.post('/prayer', (req, res) => {
+	const body = req.body;
+	console.log(req.body.amen);
+	res.send(req.body.amen);
+});
