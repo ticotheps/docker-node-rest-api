@@ -1,19 +1,19 @@
 {
-  "name": "docker-node-rest-api",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ticotheps/docker-node-rest-api.git"
-  },
-  "author": "Tico S. Thepsourinthone",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ticotheps/docker-node-rest-api/issues"
-  },
-  "homepage": "https://github.com/ticotheps/docker-node-rest-api#readme"
+	"name": "docker-node-rest-api",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ticotheps/docker-node-rest-api.git"
+	},
+	"author": "Tico S. Thepsourinthone",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ticotheps/docker-node-rest-api/issues"
+	},
+	"homepage": "https://github.com/ticotheps/docker-node-rest-api#readme"
 }
